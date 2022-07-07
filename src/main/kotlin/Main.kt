@@ -13,7 +13,7 @@ fun displayMainOptions() {
     println("\t[D] - Display")
     println("\t[E] - Exit App")
     print("\nSelection: ")
-    val selection = readln().uppercase()
+    val selection = readln().lowercase()
 
     val actions = SdbmsActions()
 
